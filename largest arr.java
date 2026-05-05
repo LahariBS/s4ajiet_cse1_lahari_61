@@ -9,9 +9,10 @@ class Main {
         for(i=1;i<arr.length;i++){
         if (arr[i]>large){
             large=arr[i];
-              System.out.println("largest :" + large);
+
         }
         }
+        System.out.println("largest :" + large);
         System.out.println("elements in the array" +arr.length);
     }
 }
