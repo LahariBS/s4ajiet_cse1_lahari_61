@@ -9,7 +9,7 @@ class Main {
           int k = 2;
           Arrays.sort(arr);
         for(i=0;i<n;i++){
-        if (arr[i]<large){
+        if (arr[i]>large){
             large=arr[i];
         }
             
