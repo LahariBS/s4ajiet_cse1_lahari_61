@@ -13,6 +13,11 @@ public class Main
 	 
 	   System.out.println(cse.size());
 		System.out.println(cse.get(0));
+		System.out.println("Before clear: " + cse);
+
+       cse.clear();
+
+         System.out.println("After clear: " + cse);
 		System.out.println(cse);
 
 	}
