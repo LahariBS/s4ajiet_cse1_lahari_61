@@ -9,6 +9,7 @@ public class Main {
         cse.put(102,"lavanya");
         cse.put(103,"mithesh");
         cse.put(104,"sujju");
+        cse.put(101,"likki");
          System.out.println("total element before remove: " + cse);
          
 
@@ -18,6 +19,9 @@ public class Main {
         
         System.out.println(" after remove the size is " + cse.size());
         System.out.println("total element: " + cse);
+        
+         //.sort(cse);
+	    //Collections.sort(cse,Collections.reverseOrder());
 
         System.out.println("Before clear: " + cse);
 
