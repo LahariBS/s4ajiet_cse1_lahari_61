@@ -21,6 +21,12 @@ public class Main {
          cse.getFirst();
          cse.getLast();
         System.out.println(cse.get(0));
+        System.out.println("Before clear: " + cse);
+
+cse.clear();
+
+System.out.println("After clear: " + cse);
+        
        
         System.out.println(cse);
     }
